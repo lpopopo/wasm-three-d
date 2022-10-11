@@ -1,0 +1,35 @@
+{
+  "name": "three-d",
+  "version": "1.0.0",
+  "description": "![Logo](https://asny.github.io/three-d/0.14/logo.png)",
+  "main": "index.js",
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/asny/three-d.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/asny/three-d/issues"
+  },
+  "homepage": "https://github.com/asny/three-d#readme",
+  "devDependencies": {
+    "copy-webpack-plugin": "^5.0.0",
+    "hello-wasm-pack": "^0.1.0",
+    "webpack": "^4.29.3",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.5"
+  },
+  "dependencies": {
+    "fog": "./examples/fog/pkg",
+    "three-d": "./pkg"
+  }
+}

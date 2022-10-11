@@ -11,6 +11,9 @@ categories = ["graphics", "rendering", "visualization", "wasm", "web-programming
 keywords = ["3d", "gamedev", "webassembly", "opengl", "webgl"]
 exclude = ["/examples", ".gitignore", "index.html"]
 
+[lib]
+crate-type = ["cdylib", "rlib"]
+
 [package.metadata.docs.rs]
 all-features = true
 rustdoc-args = ["--cfg", "docsrs"]
