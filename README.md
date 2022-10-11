@@ -1,5 +1,6 @@
-#run by three-d
-##`three-d`
+# run by three-d
+
+## `three-d`
 
 [![crates.io](https://img.shields.io/crates/v/three-d.svg)](https://crates.io/crates/three-d)
 [![Docs.rs](https://docs.rs/three-d/badge.svg)](https://docs.rs/three-d)
